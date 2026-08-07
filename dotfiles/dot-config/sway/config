@@ -6,19 +6,18 @@ set $down j
 set $up k
 set $right l
 set $term foot
-set $menu rofi -show drun -theme ~/.config/rofi/dmenu.rasi
 floating_modifier $mod 
 
 ### Output
-output HDMI-A-2 mode 1366x768@60Hz bg ~/Documents/wallpapers/kazusa-nice.png fill
+output HDMI-A-2 mode 1024x768@60Hz bg ~/Documents/wallpapers/sui-megane.jpg fill
 
 ### Gaps & Padding
 gaps inner 10
 gaps outer 0
 gaps top 10
 gaps bottom 10
-gaps left 100
-gaps right 100
+gaps left 10
+gaps right 10
 
 ### Borders
 default_floating_border pixel 2
@@ -34,9 +33,9 @@ client.focused_inactive #171823 #171823 #5c5c5c #171823 #171823
 bindsym $alt+Return       exec $term
 bindsym $alt+Shift+Return exec $term
 
-bindsym $alt+space       exec rofi -show drun -theme ~/.config/rofi/dmenu.rasi
-bindsym $alt+Tab         exec rofi -show window -theme ~/.config/rofi/dmenu.rasi
-bindsym $alt+r           exec rofi -show run   -theme ~/.config/rofi/dmenu.rasi
+bindsym $alt+space       exec wofi --show drun
+bindsym $alt+Tab         exec wofi --show window 
+bindsym $alt+r           exec wofi --show run
 
 bindsym $alt+e       exec $term -e yazi
 bindsym $alt+Shift+e exec nautilus
