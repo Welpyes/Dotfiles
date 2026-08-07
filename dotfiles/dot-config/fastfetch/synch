@@ -1,0 +1,12 @@
+#!/data/data/com.termux/files/usr/bin/bash
+fastfetch -c ~/.config/fastfetch/new.jsonc
+tput cuu 5
+while true; do
+  echo "──────────────────────────────────────"
+  ps aux | awk 'NR>1 {sum += $3} END { pct=int(sum); if(pct>100) pct=100; total=8; filled=int(pct*total/100); if(pct<20) color="\033[32m"; else if(pct<40) color="\033[92m"; else if(pct<60) color="\033[33m"; else if(pct<80) color="\033[38;5;208m"; else color="\033[31m"; reset="\033[0m"; bar=""; for(i=0;i<filled;i++) bar=bar"\uee04"; for(i=filled;i<total;i++) bar=bar"\uee01"; printf "  CPU  %s\uee03%s\uee02%s %d%%\n", color, bar, reset, pct }'
+  ps aux | awk '/com\.termux/ && !/runsv|svlogd|awk/ {sum += $6} END { used_mib=sum/1024; total_kb=0; while((getline line < "/proc/meminfo") > 0) if (line ~ /^MemTotal/) { split(line, a, " "); total_kb=a[2]; break }; total_mib=total_kb/1024; total_gib=total_mib/1024; pct=int(used_mib*100/total_mib); if(pct>100) pct=100; total=8; filled=int(pct*total/100); if(pct<20) color="\033[32m"; else if(pct<40) color="\033[92m"; else if(pct<60) color="\033[33m"; else if(pct<80) color="\033[38;5;208m"; else color="\033[31m"; reset="\033[0m"; bar=""; for(i=0;i<filled;i++) bar=bar"\uee04"; for(i=filled;i<total;i++) bar=bar"\uee01"; printf "  MEM  %s\uee03%s\uee02%s %dMiB/%.2fGiB\n", color, bar, reset, int(used_mib), total_gib }'
+  df -h | awk '$NF=="/storage/emulated" { gsub(/%/,"",$5); pct=$5; total=8; filled=int(pct*total/100); if(pct<20) color="\033[32m"; else if(pct<40) color="\033[92m"; else if(pct<60) color="\033[33m"; else if(pct<80) color="\033[38;5;208m"; else color="\033[31m"; reset="\033[0m"; bar=""; for(i=0;i<filled;i++) bar=bar"\uee04"; for(i=filled;i<total;i++) bar=bar"\uee01"; printf "  Disk %s\uee03%s\uee02%s %s/%s\n", color, bar, reset, $3, $2 }'
+  echo "──────────────────────────────────────"
+  read -t 2 -n 2 && break
+  tput cuu 5
+done

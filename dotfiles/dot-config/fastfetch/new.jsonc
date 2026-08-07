@@ -1,0 +1,108 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo":{
+      "type": "none",
+  }, 
+  "display": {
+    "separator": " ",
+  },
+  "modules": [
+    {
+      "type": "command",
+      "key": " ",
+      "keyWidth": 0,
+      "shell": "sh",
+      "outputColor": "blue",
+      "text": "uname -o | figlet -f smslant"
+    },
+    {
+      "type": "os",
+      "key": "\u001b[34m\u001b[0m OS      ",
+      // "format": "Archlinux [Rolling] (aarch64)",
+      "outputColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": "\u001b[33m\u001b[0m Kernel  ",
+      // "format": "Linux 6.19.2-patched",
+      "outputColor": "yellow"
+    },
+    {
+      "type": "title",
+      "key": "\u001b[32m\u001b[0m User    ",
+      "format": "Welpyes",
+      "outputColor": "green"
+    },
+    {
+      "type": "title",
+      "key": "\u001b[35m\u001b[0m Host    ",
+      "format": "Hoshiyomi",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "host",
+      "key": "\u001b[31m󰌢\u001b[0m Model   ",
+      "outputColor": "red"
+    },
+    {
+      "type": "cpu",
+      "key": "\u001b[36m\u001b[0m CPU     ",
+      "outputColor": "cyan"
+    },
+    {
+      "type": "gpu",
+      "key": "\u001b[32m󰾲\u001b[0m GPU     ",
+      "outputColor": "green"
+    },
+    {
+      "type": "uptime",
+      "key": "\u001b[33m\u001b[0m Uptime  ",
+      "outputColor": "yellow"
+    },
+    {
+      "type": "shell",
+      "key": "\u001b[35m\u001b[0m Shell   ",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "wm",
+      "key": "\u001b[34m\u001b[0m WM/DE   ",
+      "format": "{1}",
+      "outputColor": "blue"
+    },
+    {
+      "type": "packages",
+      "key": "\u001b[36m󰏖\u001b[0m Packages",
+      "outputColor": "cyan"
+    },
+    {
+        "type": "custom",
+        "format": "──────────────────────────────────────"
+    },
+    {
+      "type": "command",
+      "key": "CPU ",
+      "keyColor": "blue",
+      "shell": "sh",
+      "text": "ps aux | awk 'NR>1 {sum += $3} END { pct=int(sum); if(pct>100) pct=100; total=8; filled=int(pct*total/100); if(pct<20) color=\"\\033[32m\"; else if(pct<40) color=\"\\033[92m\"; else if(pct<60) color=\"\\033[33m\"; else if(pct<80) color=\"\\033[38;5;208m\"; else color=\"\\033[31m\"; reset=\"\\033[0m\"; bar=\"\"; for(i=0;i<filled;i++) bar=bar\"\uee04\"; for(i=filled;i<total;i++) bar=bar\"\uee01\"; printf \"%s\uee03%s\uee02%s %d%%\\n\", color, bar, reset, pct }'"
+    },
+    {
+      "type": "command",
+      "key": "MEM ",
+      "keyColor": "blue",
+      "shell": "sh",
+      "text": "ps aux | awk '/com\\.termux/ && !/runsv|svlogd|awk/ {sum += $6} END { used_mib=sum/1024; total_kb=0; while((getline line < \"/proc/meminfo\") > 0) if (line ~ /^MemTotal/) { split(line, a, \" \"); total_kb=a[2]; break }; total_mib=total_kb/1024; total_gib=total_mib/1024; pct=int(used_mib*100/total_mib); if(pct>100) pct=100; total=8; filled=int(pct*total/100); if(pct<20) color=\"\\033[32m\"; else if(pct<40) color=\"\\033[92m\"; else if(pct<60) color=\"\\033[33m\"; else if(pct<80) color=\"\\033[38;5;208m\"; else color=\"\\033[31m\"; reset=\"\\033[0m\"; bar=\"\"; for(i=0;i<filled;i++) bar=bar\"\uee04\"; for(i=filled;i<total;i++) bar=bar\"\uee01\"; printf \"%s\uee03%s\uee02%s %dMiB/%.2fGiB\\n\", color, bar, reset, int(used_mib), total_gib }'"
+    },
+    {
+      "type": "command",
+      "key": "Disk",
+      "keyColor": "blue",
+      "shell": "sh",
+      "text": "df -h | awk '$NF==\"/storage/emulated\" { gsub(/%/,\"\",$5); pct=$5; total=8; filled=int(pct*total/100); if(pct<20) color=\"\\033[32m\"; else if(pct<40) color=\"\\033[92m\"; else if(pct<60) color=\"\\033[33m\"; else if(pct<80) color=\"\\033[38;5;208m\"; else color=\"\\033[31m\"; reset=\"\\033[0m\"; bar=\"\"; for(i=0;i<filled;i++) bar=bar\"\uee04\"; for(i=filled;i<total;i++) bar=bar\"\uee01\"; printf \"%s\uee03%s\uee02%s %s/%s\\n\", color, bar, reset, $3, $2 }'"
+    },
+    {
+        "type": "custom",
+        "format": "──────────────────────────────────────"
+    }
+  ]
+}
