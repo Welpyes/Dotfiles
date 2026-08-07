@@ -1,3 +1,3 @@
 #!/bin/bash
 
-stow --dotfiles -D -t $HOME $(pwd)/dotfiles
+stow --dotfiles -D -t $HOME dotfiles
