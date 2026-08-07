@@ -1,0 +1,163 @@
+sw_volume: 90
+audio_device_state:1:PulseAudio Output
+audio_device_state:0:OpenSLES output
+audio_device_state:0:OpenAL output
+audio_device_state:1:my_fifo
+state: stop
+current: 79
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:main/AngryParkRanger - ＂Sweden＂ from Minecraft but it's actually Pink Floyd (UPDATE- check description).mp3
+1:main/220 - Dazzle Everyday - Blue Archive OST- Off The Tracks!.mp3
+2:main/40oz.mp3
+3:main/1.13.  - 5150.mp3
+4:main/Act my Age.mp3
+5:main/10-After School Dessert.mp3
+6:main/Nanahira - Ange du Blanc Pur.mp3
+7:main/BAND-MAID - BAND-MAID ⧸ Ready to Rock (Official Music Video)  TVアニメ「ロックは淑女の嗜みでして」オープニングテーマソング.opus
+8:main/19. Hoshimachi Suisei - Bibbidiba.mp3
+9:main/BookMaker.mp3
+10:main/Lukrembo - Bread (freetouse.com).mp3
+11:main/05 - Tofubeats - First Album Remixes - Cand¥¥¥Land (Pa's Lam System Remix).mp3
+12:main/kotoha - cat loving .mp3
+13:main/Chronostasis.mp3
+14:main/Marcin feat. Tim Henson - Classical Dragon.mp3
+15:main/Mami Kawada  Contrail ~Kiseki~ (Epsilon Remix).mp3
+16:main/THE DU - CRAZY NOISY BIZARRE TOWN.mp3
+17:main/Euphoria.mp3
+18:main/07. USAO — Extra Mode.mp3
+19:main/11-FEEEEVER TIME.mp3
+20:main/sumika - Fiction.mp3
+21:main/Fire in the phoenix.mp3
+22:main/SEGA SOUND TEAM - Friday Night.mp3
+23:main/2.02.  - GET BACK.mp3
+24:main/goodbounce.mp3
+25:main/158.1 - Gregorius _ Symphony (All) - Blue Archive OST- Off The Tracks!.mp3
+26:main/03. Guruguru Usagi.mp3
+27:main/春擬き.MP3
+28:main/04-Hifumi Daisuki.mp3
+29:main/03 - Honesty.mp3
+30:main/ZUTOMAYO - Humanoid.mp3
+31:main/02. PSYQUI - hype feat. Such (lapix Remix).mp3
+32:main/Ata - I'm Not Crazy.mp3
+33:main/Midnight Grand Orchestra - Igniter.mp3
+34:main/WALKURE - Ikenai Borderline (Speed Up Ver.).mp3
+35:main/Can't Stop Playing Among Us, I Love Among Us.mp3
+36:main/Yorushika_-_Just_a_Sunny_Day_for_You_(Music_Video).MP3
+37:main/Ave Mujica - KiLLKiSS.mp3
+38:main/004-Koi is Love.mp3
+39:main/Kotoha - God-ish.mp3
+40:main/Zekk - Libertas (Extended Mix).mp3
+41:main/Linaria.mp3
+42:main/Masayuki Suzuki - Love Dramatic.mp3
+43:main/EGOIST - Lovely Icecream Princess Sweetie.mp3
+44:main/lullaby.mp3
+45:main/A-One feat. Shihori - Magic Girl !!.mp3
+46:main/ants kask - Mai Yamane (山根麻衣) - (You And Me Still Keep On) Fall In Love - 1981 - Japan.mp3
+47:main/04 - Mazare Party (feat. Nanahira, Yukacco).mp3
+48:main/202 - Theme 202 - Blue Archive OST- Off The Tracks!.mp3
+49:main/Shiganaikoukousei - Moonlight.opus
+50:main/No Title.mp3
+51:main/Frederic - Oddloop.mp3
+52:main/1.17.  - ONE'S AGAIN.mp3
+53:main/mafumafu - Onnanoko Ni Naritai.mp3
+54:main/05. t+pazolite — Oshama Scramble! (uncut edition).mp3
+55:main/phony.mp3
+56:main/Plastic_Smile.MP3
+57:main/09. MONOGATARI Series - Platinum Disco.mp3
+58:main/02 - Playing God.mp3
+59:main/ヒロセコミ - Promise.mp3
+60:main/84 - PRST Marching - Blue Archive OST- Off The Tracks!.mp3
+61:main/USAO - Quick Charge (Speed Up Ver.).mp3
+62:main/random.mp3
+63:main/24-RE Aoharu.mp3
+64:main/1.19.  - ReI.mp3
+65:main/11 - Remote Control.mp3
+66:main/Rolling beat.mp3
+67:main/charon - Seventeen RPG .mp3
+68:main/01_01_Stella-rium_鹿乃.mp3
+69:main/PSYQUI feat. ぷにぷに電機 - Still in my heart.mp3
+70:main/Cinnamons & Evening Cinema - Summertime.mp3
+71:main/Sunglow.mp3
+72:main/01 - Yorushika - Sunny.mp3
+73:main/Ave Mujica - Symbol I  Fire.mp3
+74:main/ZUTOMAYO - TAIDADA.mp3
+75:main/chill_test.mp3
+76:main/01. ツユ — Under Mentality.mp3
+77:main/unwelcome school -jazz-.mp3
+78:main/165 - Up to 21°C - Blue Archive OST- Off The Tracks!.mp3
+79:main/01_02_Walk This Way!_鹿乃.mp3
+80:main/05. World's End, Girl's Rondo(Asterisk DnB Remix).mp3
+81:main/02 Your voice so.mp3
+82:main/yuikonnu_-_Yume_Chizu.MP3
+83:main/Evan Call - Zoltraak.mp3
+84:main/【MV】_鹿乃_「ディアブレイブ」__【OFFICIAL】.MP3
+85:main/06 あの世行きのバスに乗ってさらば.mp3
+86:main/きゅうくらりん 歌ってみた ⧸ ナナヲアカリ [QMRDrG_4dic].mp3
+87:main/14 - だから僕は音楽を辞めた.mp3
+88:main/はいよろこんで（第75回 NHK紅白歌合戦 歌唱曲⧸第66回 輝く！日本レコード大賞最優秀新人賞） ⧸ こっちのけんと MV [jzi6RNVEOtA].mp3
+89:main/Release - ふわふわ時間.opus
+90:main/01. もういいかい？.mp3
+91:main/0101 - もうどうなってもいいや.mp3
+92:main/アンダーキッズ(256k).mp3
+93:main/Yoshida Yasei - オーバーライド.mp3
+94:main/05 - ギターと孤独と蒼い惑星 (Guitar, Loneliness and Blue Planet).mp3
+95:main/高橋恵子 - サンセット・ロード.opus
+96:main/101 - スイちゃんのメンテナンスソング.mp3
+97:main/10 ソワレ.mp3
+98:main/Nanahoshi Kangengakudan feat. Matsushita - Dance Number o Tomo ni.mp3
+99:main/DECO＊27 - チェリーポップ.mp3
+100:main/02 - ツキナミ.mp3
+101:main/ツユ - ツユ - やっぱり雨は降るんだね MV.mp3
+102:main/麹町養蚕館 - マストダイ - 03 ドレッドノート.mp3
+103:main/04 - PSYQUI -  ヒステリックナイトガール (feat.Such) .mp3
+104:main/ブルーアーカイブ Blue Archive OST 133. Goal Wo Nerae! (Get Set, Go! ～キヴォトス晄輪大祭～ Event BGM) [dOH0dXpDbaU].mp3
+105:main/MO2 - ブルーアーカイブ Blue Archive OST 299.mp3
+106:main/NOMELON NOLEMON - ミッドナイト・リフレクション.opus
+107:main/01. ムーンライト.mp3
+108:main/Rubik's Cube.mp3
+109:main/01. 優しさの記憶.mp3
+110:main/03 - 八月、某、月明かり.mp3
+111:main/11 忘れてやらない.mp3
+112:main/sakanaction - 怪獣.mp3
+113:main/SEGA SOUND TEAM - 恋のディスコクイーン.mp3
+114:main/01. 恋哀Fantasy.mp3
+115:main/Dadadadadadada.mp3
+116:main/Camellia, Nanahira - 気づいたら春夏秋冬.mp3
+117:main/泥の分際で私だけの大切を奪おうだなんて.MP3
+118:main/01 - 真夜中のドア - Stay With Me.mp3
+119:main/Kou! - ShigaisenUV.mp3
+120:main/TUYU - 羨望.opus
+121:main/14. 花に亡霊.mp3
+122:main/Silver Forest - Yami no Mahou Shoujo.mp3
+123:main/01 青春コンプレックス.mp3
+124:main/Ayase Rie - Hijitsuzaikei Joshitachi wa Dou Surya Ii Desu ka.mp3
+125:main/) feat. KAFU - Ren'ai Heiki! Lethal Weapon-chan.mp3
+126:main/PSYQUI - Raise Your Hands feat. Such.mp3
+127:main/Starry Night.mp3
+128:main/冷蔵庫見たらプリンがない.mp3
+129:main/Avril Lavigne - I Love You (Sped Up Ver.).mp3
+130:main/godofspeed.mp3
+131:main/koi_no_yukue.MP3
+132:main/namirin - The Noise of Rain.mp3
+133:main/Sendan Life.mp3
+134:main/Theme_149.mp3
+135:main/Theme_15.mp3
+136:main/Theme_179_Inst2.mp3
+137:main/Theme_198.mp3
+138:main/Theme_21.mp3
+139:main/Theme_47.mp3
+140:main/Unwelcome School.mp3
+141:main/usagi flap.mp3
+142:main/Uso No Hibana.mp3
+143:main/ここで生きてる.MP3
+144:main/ロックな君とはお別れだ.MP3
+145:main/藍月なくる - Marshall Maximizer.mp3
+playlist_end
