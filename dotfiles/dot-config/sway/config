@@ -10,6 +10,7 @@ floating_modifier $mod
 
 ### Output
 output HDMI-A-2 mode 1024x768@60Hz bg ~/Documents/wallpapers/sui-megane.jpg fill
+seat * xcursor_theme Hoshimachi-Suisei 16
 
 ### Gaps & Padding
 gaps inner 10
