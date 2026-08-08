@@ -9,7 +9,7 @@ set $term foot
 floating_modifier $mod 
 
 ### Output
-output HDMI-A-2 mode 1024x768@60Hz bg ~/Documents/wallpapers/sui-megane.jpg fill
+output * mode 1024x768@60Hz bg ~/Documents/wallpapers/20251115_215343.jpg fill
 seat * xcursor_theme Hoshimachi-Suisei 16
 
 ### Gaps & Padding
@@ -28,6 +28,25 @@ client.unfocused        #171823 #171823 #5c5c5c #171823 #171823
 client.focused_inactive #171823 #171823 #5c5c5c #171823 #171823
 
 ####################
+#    Eye Candies   #
+####################
+
+blur enable
+blur_xray enable
+blur_passes 2
+blur_radius 5
+blur_noise 0.1
+
+shadows enable
+shadows_on_csd enable
+shadow_blur_radius 12
+shadow_offset 0 0
+
+default_dim_inactive 0.1
+corner_radius 5
+animation_duration_ms 400
+
+####################
 #   Applications   #
 ####################
 
@@ -41,7 +60,7 @@ bindsym $alt+r           exec wofi --show run
 bindsym $alt+e       exec $term -e yazi
 bindsym $alt+Shift+e exec nautilus
 
-bindsym $alt+Shift+s exec grim ~/Pictures/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S_scrot.png')
+bindsym $alt+Shift+s exec 
 
 ####################
 #   Window mgmt    #
@@ -54,9 +73,6 @@ bindsym $alt+Shift+q exec swaymsg exit
 bindsym $alt+f           fullscreen
 bindsym $alt+s           floating toggle
 bindsym $alt+Shift+m     layout toggle tabbed split
-
-bindsym $mod+Shift+minus move scratchpad
-bindsym $mod+minus       scratchpad show
 
 ####################
 #    Focus/Move    #
@@ -133,7 +149,7 @@ bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ 
 bindsym --locked XF86AudioMicMute     exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym --locked XF86MonBrightnessUp   exec brightnessctl set 5%+
-bindsym Print exec grim
+bindsym Print exec grim ~/Pictures/Screenshots/$(date '+%d%m%y-%H%M%s').png
 
 exec autotiling-rs
 
