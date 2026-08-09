@@ -9,7 +9,7 @@ set $term foot
 floating_modifier $mod 
 
 ### Output
-output * mode 1366x768@60Hz bg ~/Documents/wallpapers/20251115_215343.jpg fill
+output * mode 1366x768@60Hz bg ~/Documents/wallpapers/suipose.png fill
 seat * xcursor_theme Hoshimachi-Suisei 16
 
 ### Gaps & Padding
@@ -39,8 +39,9 @@ blur_noise 0.1
 
 shadows enable
 shadows_on_csd enable
-shadow_blur_radius 12
+shadow_blur_radius 10
 shadow_offset 0 0
+shadow_color #00000099
 
 default_dim_inactive 0.1
 corner_radius 5
@@ -60,8 +61,6 @@ bindsym $alt+r           exec wofi --show run
 bindsym $alt+e       exec $term -e yazi
 bindsym $alt+Shift+e exec pcmanfm
 
-bindsym $alt+Shift+s exec 
-
 ####################
 #   Window mgmt    #
 ####################
@@ -73,6 +72,7 @@ bindsym $alt+Shift+q exec swaymsg exit
 bindsym $alt+f           fullscreen
 bindsym $alt+s           floating toggle
 bindsym $alt+Shift+m     layout toggle tabbed split
+bindsym Print exec grim ~/Pictures/Screenshots/$(date '+%d%m%y-%H%M%s').png
 
 ####################
 #    Focus/Move    #
@@ -149,7 +149,6 @@ bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ 
 bindsym --locked XF86AudioMicMute     exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym --locked XF86MonBrightnessUp   exec brightnessctl set 5%+
-bindsym Print exec grim ~/Pictures/Screenshots/$(date '+%d%m%y-%H%M%s').png
 
 exec autotiling-rs
 
