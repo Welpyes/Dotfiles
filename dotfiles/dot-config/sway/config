@@ -9,7 +9,7 @@ set $term foot
 floating_modifier $mod 
 
 ### Output
-output * mode 1024x768@60Hz bg ~/Documents/wallpapers/20251115_215343.jpg fill
+output * mode 1366x768@60Hz bg ~/Documents/wallpapers/20251115_215343.jpg fill
 seat * xcursor_theme Hoshimachi-Suisei 16
 
 ### Gaps & Padding
@@ -58,7 +58,7 @@ bindsym $alt+Tab         exec wofi --show window
 bindsym $alt+r           exec wofi --show run
 
 bindsym $alt+e       exec $term -e yazi
-bindsym $alt+Shift+e exec nautilus
+bindsym $alt+Shift+e exec pcmanfm
 
 bindsym $alt+Shift+s exec 
 

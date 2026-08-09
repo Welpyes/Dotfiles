@@ -1,10 +1,8 @@
 sw_volume: 90
 audio_device_state:1:PulseAudio Output
-audio_device_state:0:OpenSLES output
-audio_device_state:0:OpenAL output
 audio_device_state:1:my_fifo
 state: stop
-current: 79
+current: 32
 random: 1
 repeat: 0
 single: 0
