@@ -1,0 +1,66 @@
+* {
+    /* Colors */
+    bg: #141210;
+    bg-alt: #322d28;
+    fg: #e5c9a0;
+    fg-alt: #d8be97;
+    
+    accent: #c09d59;
+    urgent: #c06c5c;
+    
+    border: #4d463e;
+    selected: #4d463e;
+    
+    background-color: transparent;
+    text-color: @fg;
+}
+window {
+    background-color: @bg;
+    border: 2px solid;
+    border-color: @accent;
+    border-radius: 2px;
+    width: 400px;
+    location: north west;
+    y-offset: 46;
+    x-offset: 10;
+}
+
+mainbox {
+    padding: 20px;
+    spacing: 15px;
+}
+
+inputbar {
+    // children: [prompt];
+    spacing: 0;
+    background-color: @accent;
+    text-color: @bg;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+prompt {
+    font: "Ioskeley Mono 14";
+    text-color: @bg;
+}
+
+listview {
+    lines: 5;
+    columns: 1;
+    spacing: 10px;
+}
+
+element {
+    padding: 15px;
+    background-color: transparent;
+    text-color: @fg;
+    border-radius: 5px;
+    font: "Ioskeley Mono 12";
+}
+
+element selected {
+    background-color: @selected;
+    text-color: @bg;
+    border: 2px;
+    border-color: @accent;
+}

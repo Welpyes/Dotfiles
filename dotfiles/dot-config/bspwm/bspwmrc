@@ -1,0 +1,45 @@
+#!/usr/bin/bash
+
+xrdb-wrap() {
+  local key="$1"
+  xrdb -query | awk -v k="$key" '$1 == k":" {print $2}'
+}
+
+display(){ bspc monitor -d 1 2 3 4 5
+  xrandr -s 1366x768
+  xsetroot -cursor_name left_ptr
+  xrdb -merge ~/.Xresources
+  bspc config pointer_follows_focus false
+  bspc config focus_follows_pointer true
+}
+
+gaps(){
+  bspc config window_gap 10
+  bspc config top_padding 10
+  bspc config bottom_padding 10
+  bspc config right_padding 10
+  bspc config left_padding 10
+}
+
+border(){
+  bspc config border_width 2
+  bspc config normal_border_color "$(xrdb-wrap colors.black2)"
+  bspc config active_border_color "$(xrdb-wrap colors.blue)"
+  bspc config focused_border_color "$(xrdb-wrap colors.blue)"
+}
+
+autostart(){
+  pgrep -x sxhkd || sxhkd -c ~/.config/bspwm/sxhkdrc &
+  feh --bg-fill ~/Documents/wallpapers/suipose.png &
+  dunst &
+  picom &
+}
+
+__main__(){
+  display
+  gaps
+  clients
+  border
+  autostart
+}
+__main__

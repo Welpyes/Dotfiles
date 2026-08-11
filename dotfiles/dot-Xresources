@@ -1,0 +1,114 @@
+! === Xft stuff ===
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	1
+Xft.hintstyle:	hintslight
+Xft.rgba:       rgb
+Xft.lcdfilter:	lcddefault
+
+! --- gtk ---
+gtk.theme:              Tokyonight-Dark
+
+! --- Fonts & Terminal ---
+st.font:                Ioskeley Mono:style:regular:pixelsize=18
+st.font2.0:             Symbols Nerd Font Mono:pixelsize=18
+st.termname:            st-256color
+st.borderpx:            1
+
+! --- Behavior & Performance ---
+st.alpha:               0.92
+st.tabspaces:           2
+st.blinktimeout:        500
+st.bellvolume:          0
+st.cursorstyle:         1
+st.minlatency:          2
+st.maxlatency:          33
+st.doubleclicktimeout:  300
+st.tripleclicktimeout:  600
+st.boxdraw:             1
+st.boxdraw_bold:        1
+
+! --- st colors ---
+st.background:          #1a1b26
+st.foreground:          #c0caf5
+st.cursorColor:         #c0caf5
+
+! Black + DarkGrey
+st.color0:              #15161e
+st.color8:              #414868
+
+! DarkRed + Red
+st.color1:              #f7768e
+st.color9:              #f7768e
+
+! DarkGreen + Green
+st.color2:              #9ece6a
+st.color10:             #9ece6a
+
+! DarkYellow + Yellow
+st.color3:              #e0af68
+st.color11:             #e0af68
+
+! DarkBlue + Blue
+st.color4:              #7aa2f7
+st.color12:             #7aa2f7
+
+! DarkMagenta + Magenta
+st.color5:              #bb9af7
+st.color13:             #bb9af7
+
+! DarkCyan + Cyan
+st.color6:              #7dcfff
+st.color14:             #7dcfff
+
+! LightGrey + White
+st.color7:              #a9b1d6
+st.color15:             #c0caf5
+
+! === Colour Scheme ===
+
+! Backgrounds
+colors.black:          #11121D
+colors.darker_black:   #0c0d18
+colors.black2:         #171823
+colors.one_bg:         #1d1e29
+colors.one_bg2:        #252631
+colors.one_bg3:        #252631
+colors.statusline_bg:  #161722
+colors.lightbg:        #2a2b36
+colors.line:           #252631
+
+! Foreground / Whites
+colors.white:          #A0A8CD
+
+! Greys
+colors.grey:           #474853
+colors.grey_fg:        #474853
+colors.grey_fg2:       #4e4f5a
+colors.light_grey:     #545560
+
+! Reds / Pinks
+colors.red:            #ee6d85
+colors.baby_pink:      #fd7c94
+colors.pink:           #fe6D85
+colors.pmenu_bg:       #ee6d85
+
+! Blues
+colors.blue:           #7199ee
+colors.nord_blue:      #648ce1
+colors.folder_bg:      #7199ee
+
+! Greens
+colors.green:          #98c379
+colors.vibrant_green:  #95c561
+colors.teal:           #519aba
+colors.cyan:           #38a89d
+
+! Yellows / Oranges
+colors.yellow:         #d7a65f
+colors.sun:            #dfae67
+colors.orange:         #f6955b
+
+! Purples
+colors.purple:         #a485dd
+colors.dark_purple:    #9071c9

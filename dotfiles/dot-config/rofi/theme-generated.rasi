@@ -1,0 +1,15 @@
+* {
+  bg: #1d1e29;
+  bg-alt: #2a2b36;
+  fg: #A0A8CD;
+  fg-alt: #545560;
+  red: #ee6d85;
+  green: #98c379;
+  yellow: #d7a65f;
+  blue: #7199ee;
+  purple: #a485dd;
+  cyan: #38a89d;
+  grey: #474853;
+  background-color: transparent;
+  font: "Ioskeley Mono Semibold 12";
+}

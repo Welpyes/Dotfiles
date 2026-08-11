@@ -1,0 +1,192 @@
+The selected window backend is x11 
+Mono path[0] = '/home/welpyes/GOG Games/Hollow Knight Silksong/game/Hollow Knight Silksong_Data/Managed'
+Mono config path = '/home/welpyes/GOG Games/Hollow Knight Silksong/game/Hollow Knight Silksong_Data/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+Display 0 'HDMI2VGAV108_ 13"': 1366x768 (primary device).
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Desktop is 1366 x 768 @ 60 Hz
+Initialize engine version: 6000.0.50f1-uum-100966-branch1 (16f07294548e)
+[Subsystems] Discovering subsystems at path /home/welpyes/GOG Games/Hollow Knight Silksong/game/Hollow Knight Silksong_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Renderer: Mesa Intel(R) HD Graphics 4400 (HSW GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 26.1.6-arch1.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buf
+fers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buf
+fer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL
+_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT
+_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_
+attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 634064368
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.142 seconds
+- Finished resetting the current domain, in  0.004 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Message:   BepInEx] BepInEx 5.4.23.5 - Hollow Knight Silksong (1/08/2026 7:10:48 PM)
+[Info   :   BepInEx] Running under Unity vUnknown (post-2017)
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Linux
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.5]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Info   :   BepInEx] Detected Unity version: v6000.0.50f1-uum-100966-branch1
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 4 plugins to load
+[Info   :   BepInEx] Loading [Untouchable 1.3.0]
+[Info   :Untouchable] Untouchable v1.3.0 Mod Loaded
+[Info   :   BepInEx] Loading [Healthbar&DamageShow 2.0.4]
+[Info   :Healthbar&DamageShow] Initializing Healthbar&DamageShow v2.0.4
+[Info   :Healthbar&DamageShow] 配置GUI已初始化，按Home键打开/关闭配置面板
+[Info   :   BepInEx] Loading [Disable Fog and Blur 1.0.3]
+[Info   :Disable Fog and Blur] Disable Fog and Blur Loaded
+[Info   :   BepInEx] Loading [Completionist Map 1.0.3]
+[Info   :Completionist Map] Plugin Completionist Map is loaded!
+[Message:   BepInEx] Chainloader startup complete
+Default vsync count 1
+requesting resize 800 x 480
+requesting fullscreen 800 x 480 at 0/1 Hz
+Setting up downscaled viewport at 800 x 480
+Desktop is 1366 x 768 @ 60 Hz
+UnloadTime: 0.702343 ms
+No online subsystems packaged.
+[Debug  :   BepInEx] [UnityInput] Using LegacyInputSystem
+Unloading 5 Unused Serialized files (Serialized files now loaded: 528)
+UnloadTime: 4.360429 ms
+Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
+Loaded saved language code 'EN'
+Restored language code 'EN'
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find GameCameras, make sure one exists in the scene.
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6193.
+Total: 12.142467 ms (FindLiveObjects: 0.534148 ms CreateObjectMapping: 0.462300 ms MarkObjects: 11.096837 ms  DeleteObjects: 0.048430 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 528)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 13425.
+Total: 35.611461 ms (FindLiveObjects: 1.579915 ms CreateObjectMapping: 1.364066 ms MarkObjects: 32.588899 ms  DeleteObjects: 0.077569 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 582)
+Couldn't find GameCameras, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+UnloadTime: 12.128668 ms
+Loaded saved language code 'EN'
+Restored language code 'EN'
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 67682.
+Total: 113.995947 ms (FindLiveObjects: 6.686864 ms CreateObjectMapping: 5.200433 ms MarkObjects: 101.280807 ms  DeleteObjects: 0.827070 ms)
+
+[Info   :Completionist Map] Loaded 6163 Icons! took 38393ms
+MenuButton missing flashEffect!
+Making UI menu lean.
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+Unloading 3 Unused Serialized files (Serialized files now loaded: 579)
+Unloading 2518 unused Assets to reduce memory usage. Loaded Objects now: 114551.
+Total: 271.272121 ms (FindLiveObjects: 11.937413 ms CreateObjectMapping: 7.062633 ms MarkObjects: 242.090714 ms  DeleteObjects: 10.180129 ms)
+
+Converting Vertex Colors from Color32 to Color.
+Converting Vertex Colors from Color32 to Color.
+Converting Vertex Colors from Color32 to Color.
+[Info   :Completionist Map] Scanned coordinates, 735 visible, took 77ms
+[Info   :Completionist Map] Prepared 5974 markers!
+[Info   :Completionist Map] Scanned coordinates, 736 visible, took 70ms
+[Info   :Completionist Map] Scanned coordinates, 739 visible, took 56ms
+[Info   :Completionist Map] Scanned coordinates, 741 visible, took 64ms
+[Info   :Healthbar&DamageShow] 通过EnemyJournalManager匹配到Boss名称: Groal the Great (匹配单词数: 2)
+[Info   :Completionist Map] Scanned coordinates, 749 visible, took 60ms
+[Info   :Completionist Map] Scanned coordinates, 743 visible, took 71ms
+Cannot use 'linearVelocity' on a static body.
+[Info   :Completionist Map] Scanned coordinates, 742 visible, took 59ms
+[Info   :Completionist Map] Scanned coordinates, 742 visible, took 58ms
+[Info   :Completionist Map] Scanned coordinates, 741 visible, took 62ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 75ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 66ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 59ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 56ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 652)
+Scene Manager missing from scene Bellway_Aqueduct
+UnloadTime: 14.418527 ms
+Unloading 9415 unused Assets to reduce memory usage. Loaded Objects now: 176761.
+Total: 483.430117 ms (FindLiveObjects: 26.768335 ms CreateObjectMapping: 12.728880 ms MarkObjects: 374.593025 ms  DeleteObjects: 69.338880 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 599)
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 183138.
+Total: 287.372042 ms (FindLiveObjects: 18.173877 ms CreateObjectMapping: 6.530470 ms MarkObjects: 259.890594 ms  DeleteObjects: 2.776303 ms)
+
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 54ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 72ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 68ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 635)
+UnloadTime: 15.289667 ms
+Unloading 6481 unused Assets to reduce memory usage. Loaded Objects now: 173583.
+Total: 333.458060 ms (FindLiveObjects: 20.891264 ms CreateObjectMapping: 6.774840 ms MarkObjects: 251.373785 ms  DeleteObjects: 54.417529 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 594)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 182965.
+Total: 341.162398 ms (FindLiveObjects: 18.070519 ms CreateObjectMapping: 6.134226 ms MarkObjects: 316.441433 ms  DeleteObjects: 0.515501 ms)
+
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 61ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 65ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 58ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 63ms
+[Info   :Completionist Map] Scanned coordinates, 745 visible, took 67ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 67ms
+[Info   :Completionist Map] Scanned coordinates, 740 visible, took 64ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 63ms
+Cannot use 'linearVelocity' on a static body.
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 60ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 58ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 54ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 62ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 58ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 647)
+UnloadTime: 16.399258 ms
+Unloading 8139 unused Assets to reduce memory usage. Loaded Objects now: 174140.
+Total: 359.157371 ms (FindLiveObjects: 25.851240 ms CreateObjectMapping: 7.125047 ms MarkObjects: 284.466047 ms  DeleteObjects: 41.714424 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 640)
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 182050.
+Total: 286.400534 ms (FindLiveObjects: 18.692513 ms CreateObjectMapping: 6.235379 ms MarkObjects: 260.114176 ms  DeleteObjects: 1.357796 ms)
+
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 60ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 63ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 54ms
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
+The referenced script (Unknown) on this Behaviour is missing!
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+The referenced script on this Behaviour (Game Object 'Gate NPC') is missing!
+[Info   :Healthbar&DamageShow] 通过EnemyJournalManager匹配到Boss名称: Last Judge (匹配单词数: 2)
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 70ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 81ms
+The referenced script (tk2dSpriteAnimatorDebug) on this Behaviour is missing!
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+The referenced script on this Behaviour (Game Object 'Gate NPC') is missing!
+Couldn't find transition point "door2", falling back to first available: "right1"
+[Info   :Healthbar&DamageShow] 通过EnemyJournalManager匹配到Boss名称: Last Judge (匹配单词数: 2)
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 76ms
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 57ms
+The referenced script (tk2dSpriteAnimatorDebug) on this Behaviour is missing!
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
+The referenced script on this Behaviour (Game Object 'Gate NPC') is missing!
+[Info   :Healthbar&DamageShow] 通过EnemyJournalManager匹配到Boss名称: Last Judge (匹配单词数: 2)
+[Info   :Completionist Map] Scanned coordinates, 757 visible, took 66ms
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.
+Couldn't find a Game Manager, make sure one exists in the scene.

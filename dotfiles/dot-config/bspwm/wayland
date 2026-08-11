@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+bspc config window_gap 0
+bspc config border_width 0
+dwl # > /dev/null 2>&1 &

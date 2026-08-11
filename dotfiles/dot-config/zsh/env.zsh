@@ -14,7 +14,7 @@ export GPG_TTY=$(tty)
 
 export SUDO_PROMPT="passwd: "
 export TERMINAL="st"
-export BROWSER="zen-browser"
+export BROWSER="helium-browser"
 export VISUAL="nvim"
 export EDITOR="nvim"
 

@@ -1,0 +1,46 @@
+configuration {
+    /* General */
+    modi: "drun,run,window,ssh";
+    show-icons: false;
+    display-drun: "";
+    display-run: "";
+    display-window: "";
+    display-ssh: "";
+    drun-display-format: "{name}";
+    kb-remove-to-eol:    "";
+    kb-mode-complete:    "";
+    kb-remove-char-back: "BackSpace,Shift+BackSpace";
+    kb-accept-entry:     "Return,KP_Enter,Control+m";
+
+    /* Vim-style navigation */
+    kb-row-up:    "Control+k,Up";
+    kb-row-down:  "Control+j,Down";
+    kb-row-left:  "Control+h,Control+Page_Up";
+    kb-row-right: "Control+l,Control+Page_Down";
+    
+    /* Window */
+    width: 50;
+    lines: 10;
+    columns: 1;
+    
+    /* Behavior */
+    matching: "fuzzy";
+    scroll-method: 0;
+    disable-history: false;
+    show-match: true;
+    sort: true;
+    sorting-method: "fzf";
+    case-sensitive: false;
+    
+    /* Misc */
+    terminal: "st";
+    ssh-client: "ssh";
+    ssh-command: "{terminal} -e {ssh-client} {host}";
+    run-shell-command: "{terminal} -e {cmd}";
+    drun-match-fields: "name,generic,exec,categories,keywords";
+    window-match-fields: "title,class,role,name,desktop";
+    
+    /* Performance */
+    lazy-grab: false;
+    max-history-size: 25;
+}
