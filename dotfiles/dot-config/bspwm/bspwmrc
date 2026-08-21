@@ -6,7 +6,6 @@ xrdb-wrap() {
 }
 
 display(){ bspc monitor -d 1 2 3 4 5
-  xrandr -s 1366x768
   xsetroot -cursor_name left_ptr
   xrdb -merge ~/.Xresources
   bspc config pointer_follows_focus false
@@ -32,13 +31,12 @@ autostart(){
   pgrep -x sxhkd || sxhkd -c ~/.config/bspwm/sxhkdrc &
   feh --bg-fill ~/Documents/wallpapers/suipose.png &
   dunst &
-  picom &
+  fastcompmgr &
 }
 
 __main__(){
   display
   gaps
-  clients
   border
   autostart
 }

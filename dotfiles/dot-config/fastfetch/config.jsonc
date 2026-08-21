@@ -26,19 +26,20 @@
             "key": "Distro",
         },
         {
+            "type": "kernel",
+        },
+        "shell",
+        "uptime",
+        "processes",
+        {
             "type": "wm",
             "key": "Window Manager"
         },
-        {
-            "type": "kernel",
-        },
-        "uptime",
-        "processes",
+        "display",
         {
             "type": "de",
             "key": "Desktop Environment"
         },
-        "shell",
         {
             "type": "terminal",
             "format": "{pretty-name} {version} {#37}█{#97}█ {#36}█{#96}█ {#35}█{#95}█ {#34}█{#94}█ {#33}█{#93}█ {#32}█{#92}█ {#31}█{#91}█ {#30}█{#90}█"
@@ -50,7 +51,7 @@
         {
             "type": "cpu",
             "key": "CPU",
-            "format": "{cores-logical} x {name}"
+            // "format": "{cores-logical} x {name}"
         },
         {
             "type": "gpu",

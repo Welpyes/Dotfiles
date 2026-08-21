@@ -167,3 +167,7 @@ vplay(){
     SDL_HINT_RENDER_DRIVER=opengl
     ffplay -vcodec $(ffprobe -v error -select_streams v:0 -show_entries stream=codec_name -of default=noprint_wrappers=1:nokey=1 $1)_mediacodec $1
 }
+
+sudo() {
+  command sudo -E $@
+}
