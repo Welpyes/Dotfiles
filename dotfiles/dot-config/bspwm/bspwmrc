@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-
 xrdb-wrap() {
   local key="$1"
   xrdb -query | awk -v k="$key" '$1 == k":" {print $2}'
@@ -29,9 +28,10 @@ border(){
 
 autostart(){
   pgrep -x sxhkd || sxhkd -c ~/.config/bspwm/sxhkdrc &
-  feh --bg-fill ~/Documents/wallpapers/suipose.png &
+  feh --bg-fill ~/Pictures/wallpapers/2089711133741765002.jpg &
   dunst &
   fastcompmgr &
+  pulseaudio --start &
 }
 
 __main__(){
